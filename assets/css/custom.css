@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0px;
+}
+
+/* global */
+
+.blue{
+    color: rgb(18, 116, 220);
+}
+
+.current_page{
+    border-bottom: 2px #000 solid;
+}
+
+.all{
+    color: rgb(18, 116, 220);
+}
+
+.done {
+    color: green;
+}
+
+.del {
+    color: red;
+}
+
+.date{
+    font-size: 13px;
+    color: grey;
+}
+
+/* header */
+
+header{
+    padding: 10px 0 10px 0;
+    background: #f4f4f4;
+}
+
+header h1{
+    font-size: 30px;
+}
+
+/* notes */
+
+.notes {
+    padding: 10px 0 10px 0;
+}
+
+.notes .notemenu{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.notes .square{
+    width: 33.33%;
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* note input */
+
+.notes .noteinput{
+    width: 50%;
+    margin: auto;
+    padding: 10px 0 10px 0;
+}
+
+.notes .noteinput form{
+    display: none;
+}
+
+.notes .noteinput input{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px #000 solid;
+}
+
+.notes .noteinput textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+    border: 1px #000 solid;
+    height: 30vh;
+}
+
+.notes .noteinput button{
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.notes .noteinput .canceladdnote{
+    display: none;
+}
+
+/* note body */
+
+.notes .notebody{
+    width: 50%;
+    margin: auto;
+}
+
+.notes .note{
+    padding: 20px;
+    margin-top: 20px;
+    background: #f4f4f4;
+}
+
+.notes h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.notes .note p{
+    font-size: 12px;
+}
+
+.notes .note button{
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    margin: 10px 0 0 0px;
+}
+
+/* noteDone */
+
+.notes .noteDone{
+    padding: 20px;
+    margin-top: 20px;
+    background: #e0ffe3;
+}
+
+.notes .noteDone p{
+    font-size: 12px;
+}
+
+.notes .noteDone button{
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    margin: 10px 0 0 0px;
+}
+
+/* deleted notes page */
+
+.notes .deletednotes{
+    padding: 20px;
+    margin-top: 20px;
+    background: #ffd3d3;
+}
+
+.notes .deletednotes p{
+    font-size: 12px;
+}
+
+.notes .deletednotes button{
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    margin: 10px 0 0 0px;
+}
+
+/* edit */
+
+.editform{
+    padding: 20px 0 20px 0;
+}
+
+.editform input{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px #000 solid;
+}
+
+.editform textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+    border: 1px #000 solid;
+    height: 30vh;
+}
+
+.editform button{
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+}

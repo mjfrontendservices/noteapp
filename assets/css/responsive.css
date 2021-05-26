@@ -1,0 +1,19 @@
+@media(max-width: 995px){
+    .notes .notemenu{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        text-align: center;
+    }
+
+    .notes .noteinput{
+        width: 100%;
+        margin: auto;
+        padding: 10px 0 10px 0;
+    }
+
+    .notes .notebody{
+        width: 100%;
+        margin: auto;
+    }
+}
